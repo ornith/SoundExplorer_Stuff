@@ -6,11 +6,48 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		814C8E881BA80D4E0078B5DD /* CPUINF32.DLL */ = {isa = PBXFileReference; lastKnownFileType = file; path = CPUINF32.DLL; sourceTree = "<group>"; };
+		814C8E891BA80D4E0078B5DD /* Filzip.ini */ = {isa = PBXFileReference; lastKnownFileType = text; path = Filzip.ini; sourceTree = "<group>"; };
+		814C8E8A1BA80D4E0078B5DD /* NSP.DLL */ = {isa = PBXFileReference; lastKnownFileType = file; path = NSP.DLL; sourceTree = "<group>"; };
+		814C8E8B1BA80D4E0078B5DD /* NSPM5.DLL */ = {isa = PBXFileReference; lastKnownFileType = file; path = NSPM5.DLL; sourceTree = "<group>"; };
+		814C8E8C1BA80D4E0078B5DD /* NSPM6.DLL */ = {isa = PBXFileReference; lastKnownFileType = file; path = NSPM6.DLL; sourceTree = "<group>"; };
+		814C8E8D1BA80D4E0078B5DD /* NSPP6.DLL */ = {isa = PBXFileReference; lastKnownFileType = file; path = NSPP6.DLL; sourceTree = "<group>"; };
+		814C8E8E1BA80D4E0078B5DD /* NSPPX.DLL */ = {isa = PBXFileReference; lastKnownFileType = file; path = NSPPX.DLL; sourceTree = "<group>"; };
+		814C8E8F1BA80D4E0078B5DD /* SE_APRIL_2011.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = SE_APRIL_2011.exe; sourceTree = "<group>"; };
+		814C8E901BA80D4E0078B5DD /* Trigger_Mono_Andries_July_2011.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = Trigger_Mono_Andries_July_2011.exe; sourceTree = "<group>"; };
+		814C8E911BA80D4E0078B5DD /* UNZDLL.DLL */ = {isa = PBXFileReference; lastKnownFileType = file; path = UNZDLL.DLL; sourceTree = "<group>"; };
+		814C8E921BA80D4E0078B5DD /* ZIPDLL.DLL */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZIPDLL.DLL; sourceTree = "<group>"; };
+		814C8E931BA80D5A0078B5DD /* wav_count.PAS */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.pascal; path = wav_count.PAS; sourceTree = "<group>"; };
+		814C8E941BA80D610078B5DD /* kmeans1f.PAS */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.pascal; path = kmeans1f.PAS; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		814C8E7E1BA80C3F0078B5DD = {
 			isa = PBXGroup;
 			children = (
+				814C8E941BA80D610078B5DD /* kmeans1f.PAS */,
+				814C8E931BA80D5A0078B5DD /* wav_count.PAS */,
+				814C8E871BA80D4E0078B5DD /* SoundExplorer_Definitive */,
 			);
+			sourceTree = "<group>";
+		};
+		814C8E871BA80D4E0078B5DD /* SoundExplorer_Definitive */ = {
+			isa = PBXGroup;
+			children = (
+				814C8E881BA80D4E0078B5DD /* CPUINF32.DLL */,
+				814C8E891BA80D4E0078B5DD /* Filzip.ini */,
+				814C8E8A1BA80D4E0078B5DD /* NSP.DLL */,
+				814C8E8B1BA80D4E0078B5DD /* NSPM5.DLL */,
+				814C8E8C1BA80D4E0078B5DD /* NSPM6.DLL */,
+				814C8E8D1BA80D4E0078B5DD /* NSPP6.DLL */,
+				814C8E8E1BA80D4E0078B5DD /* NSPPX.DLL */,
+				814C8E8F1BA80D4E0078B5DD /* SE_APRIL_2011.exe */,
+				814C8E901BA80D4E0078B5DD /* Trigger_Mono_Andries_July_2011.exe */,
+				814C8E911BA80D4E0078B5DD /* UNZDLL.DLL */,
+				814C8E921BA80D4E0078B5DD /* ZIPDLL.DLL */,
+			);
+			path = SoundExplorer_Definitive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
